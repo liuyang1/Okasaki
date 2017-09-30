@@ -20,7 +20,7 @@ void testInit()
 }
 
 
-void main()
+int main()
 {
     testInit();
     std::string init =  "a red black tree walks into a bar "
@@ -39,4 +39,5 @@ void main()
         if (!t.member(c))
             std::cout << "Error: " << c << " not found\n";
     });
+    return 0;
 }
